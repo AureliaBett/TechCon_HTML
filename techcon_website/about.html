@@ -4,106 +4,78 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>About TechCon 2024</title>
-  <style>
-    :root{--accent:#0b6efd;--muted:#666}
-    body{font-family:Inter, system-ui, -apple-system, Roboto, "Helvetica Neue", Arial;line-height:1.6;margin:0;color:#111}
-    header{background:#f8f9fb;border-bottom:1px solid #e6e9ef;padding:22px 16px}
-    .container{max-width:1000px;margin:0 auto;padding:0 16px}
-    nav ul{list-style:none;padding:0;margin:0;display:flex;gap:12px}
-    nav a{text-decoration:none;color:var(--accent);font-weight:600}
-    h1{margin:0 0 8px;font-size:clamp(1.4rem,2.4vw,2rem)}
-    main{padding:28px 0}
-    article{margin-bottom:28px;background:#fff;padding:18px;border-radius:10px;box-shadow:0 1px 4px rgba(15,15,15,0.03)}
-    article h2{margin-top:0}
-    .history-images{display:flex;gap:12px;flex-wrap:wrap}
-    .history-images img{width:calc(33% - 8px);min-width:160px;border-radius:6px}
-    .speakers{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:16px}
-    .speaker{display:flex;gap:12px;align-items:flex-start}
-    .speaker img{width:84px;height:84px;object-fit:cover;border-radius:8px}
-    footer{background:#0f1724;color:#fff;padding:18px 0;margin-top:28px}
-    .muted{color:var(--muted)}
-    @media (max-width:640px){.history-images img{width:100%}}
-  </style>
 </head>
 <body>
   <header>
-    <div class="container">
-      <h1>About TechCon 2024</h1>
-      <nav aria-label="Main navigation">
-        <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="schedule.html">Schedule</a></li>
-          <li><a href="register.html">Register</a></li>
-          <li><a href="contact.html">Contact</a></li>
-        </ul>
-      </nav>
-    </div>
+    <h1>About TechCon 2024</h1>
+    <nav>
+      <ul>
+                <li> <a href = "about.html">About</a></li>
+                <li> <a href = "register.html">Register</a></li>
+                <li> <a href = "schedule.html">Schedule</a></li>
+                <li> <a href = "contacts.html">Contact Us</a></li>
+      </ul>
+    </nav>
   </header>
 
-  <main class="container">
+  <main>
 
-    <article id="history">
+    <article>
       <h2>History</h2>
-      <p class="muted">Since its founding in 2010, TechCon has grown from a grassroots meetup into one of the region's most influential technology conferences. Each year we've brought together engineers, founders, researchers, and students to share breakthroughs and build community.</p>
-      <div class="history-images" aria-hidden="false">
-        <img src="assets/history-2011.jpg" alt="TechCon 2011 group photo: first conference attendees gathered in a conference hall">
-        <img src="assets/history-2015.jpg" alt="TechCon 2015: keynote stage with early speakers and audience">
-        <img src="assets/history-2019.jpg" alt="TechCon 2019: expo floor with startups showcasing booths">
-      </div>
+      <p>Since its founding in 2010, TechCon has grown from a grassroots meetup into one of the region's most influential technology conferences. Each year we've brought together engineers, founders, researchers, and students to share breakthroughs and build community.</p>
+      <img src="assets/history-2011.jpg" alt="TechCon 2011 group photo: first conference attendees gathered in a conference hall">
+      <img src="assets/history-2015.jpg" alt="TechCon 2015: keynote stage with early speakers and audience">
+      <img src="assets/history-2019.jpg" alt="TechCon 2019: expo floor with startups showcasing booths">
       <p>Over the years we've expanded our program to include workshops, hands-on labs, and an innovation fair that highlights startups and open-source projects.</p>
     </article>
 
-    <article id="mission">
+    <article>
       <h2>Mission</h2>
-      <p class="muted">TechCon exists to accelerate knowledge-sharing and to create opportunities for collaboration across disciplines. We aim to make advanced technology accessible, encourage ethical practices, and support diverse voices in tech.</p>
+      <p>TechCon exists to accelerate knowledge-sharing and to create opportunities for collaboration across disciplines. We aim to make advanced technology accessible, encourage ethical practices, and support diverse voices in tech.</p>
       <p>Our core principles:</p>
       <ul>
         <li>Share practical, production-ready knowledge.</li>
         <li>Promote inclusivity and diverse perspectives.</li>
         <li>Foster mentorship and community-driven learning.</li>
       </ul>
-      <p><img src="assets/mission-icon.png" alt="Icon representing mission: compass and light" style="width:48px;vertical-align:middle"> Join us in building a future where technology serves everyone.</p>
+      <p><img src="assets/mission-icon.png" alt="Icon representing mission: compass and light"> Join us in building a future where technology serves everyone.</p>
     </article>
 
-    <article id="past-speakers">
+    <article>
       <h2>Past Speakers</h2>
-      <p class="muted">Each year TechCon invites leaders from industry and academia. Below are a few notable speakers who have shaped conversations at TechCon:</p>
-      <section class="speakers">
+      <p>Each year TechCon invites leaders from industry and academia. Below are a few notable speakers who have shaped conversations at TechCon:</p>
 
-        <figure class="speaker">
+      <section>
+        <figure>
           <img src="assets/speakers/aya-ndoro.jpg" alt="Speaker: Aya Ndoro">
           <figcaption>
             <strong>Aya Ndoro</strong>
-            <p class="muted">Former Director of Cloud Platforms. Aya spoke on scalable architectures and open-source ecosystems, influencing tools used by thousands of engineers.</p>
+            <p>Aya spoke on scalable architectures and open-source ecosystems, influencing tools used by thousands of engineers.</p>
           </figcaption>
         </figure>
 
-        <figure class="speaker">
+        <figure>
           <img src="assets/speakers/dr-sam-oki.jpg" alt="Speaker: Dr. Sam Oki">
           <figcaption>
             <strong>Dr. Sam Oki</strong>
-            <p class="muted">AI researcher and educator. Dr. Oki presented on responsible AI and helped lead workshops on model interpretability.</p>
+            <p>AI researcher and educator. Dr. Oki presented on responsible AI and helped lead workshops on model interpretability.</p>
           </figcaption>
         </figure>
 
-        <figure class="speaker">
+        <figure>
           <img src="assets/speakers/maria-chen.jpg" alt="Speaker: Maria Chen">
           <figcaption>
             <strong>Maria Chen</strong>
-            <p class="muted">Founder and CTO. Maria shared lessons from scaling startups and building developer-first products.</p>
+            <p>Founder and CTO. Maria shared lessons from scaling startups and building developer-first products.</p>
           </figcaption>
         </figure>
-
       </section>
     </article>
 
   </main>
 
   <footer>
-    <div class="container">
-      <p>&copy; 2024 TechCon. All rights reserved.</p>
-      <p class="muted">Designed for the TechCon_HTML repository — techcon_website/about.html</p>
-    </div>
+    <p>&copy; 2024 TechCon. All rights reserved.</p>
   </footer>
 
 </body>
